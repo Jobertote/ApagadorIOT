@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos1.css">
+</head>
+<body>
+    <main>
+        <form>
+            <button id="btnEncender" class="on"><img src="power.png" alt=""> </button>
+        </form>
+        <form>
+            <button id="btnApagar" class="off"><img src="power-button (1).png" alt=""></button>
+        </form>
+    </main>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCMewGpoiUI3HlCHl9deGs700pzCkHt9qc",
+    authDomain: "apagadoriot.firebaseapp.com",
+    databaseURL: "https://apagadoriot-default-rtdb.firebaseio.com",
+    projectId: "apagadoriot",
+    storageBucket: "apagadoriot.appspot.com",
+    messagingSenderId: "1097455195102",
+    appId: "1:1097455195102:web:592c4322dd34b386a9034f",
+    measurementId: "G-M99QLGZJLJ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+<script src="send.js"></script>
+
+
+</body>
+</html>
