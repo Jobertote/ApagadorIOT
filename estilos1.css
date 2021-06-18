@@ -1,0 +1,22 @@
+.on{
+  position: fixed;
+  left: 25%;
+  top: 35%;
+  width: 250px;
+  height: 250px;
+  background: #4DF601;
+  border-radius: 50%;
+  font-size:20px;
+  border: #3ECB01 6px solid;
+}
+.off{
+  position: fixed;
+  left: 55%;
+  top: 35%;
+  width: 250px;
+  height: 250px;
+  background: #F70B01;
+  border-radius: 50%;
+  font-size:20px;
+  border: #CB0C01 6px solid;
+}
